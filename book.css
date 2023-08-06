@@ -1,0 +1,68 @@
+*{
+    background:#ECF2FF;
+}
+div{
+    position:absolute;
+    top: 20%;
+    left: 10%
+    
+
+    
+}
+span{
+    color: rgb(30, 30, 209);
+    font-weight: bold;
+    font-size: 80px;
+    font-family: Helvetica;
+    
+ 
+
+}
+
+form{
+    
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    background:rgb(255, 255, 255);
+    padding: 10%;
+    border-style:solid;
+    border-color:#A6D1E6;
+     border-radius: 20%;
+    padding-bottom: 5%;
+    
+    
+}
+button{
+    color: white;
+    background: blue;
+    padding: 5%;
+    margin: 10%;
+    margin-bottom: 0%;
+    
+}
+input{
+    background: white;
+    padding: 2px;
+    border-radius: 10%;
+    border-color:black;
+    height: 20%;
+    box-sizing: border-box;
+    box-shadow: 20%;
+}
+img{
+    size: 306x106px;
+   border: 0;
+   height: 106px;
+   margin: -28px;
+ 
+
+}
+p{
+    color:black;
+    font-size: 150%;
+    font-family: "Gill Sans", sans-serif;
+}
+button[p]{
+    background:green;
+}
