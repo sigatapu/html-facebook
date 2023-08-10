@@ -25,11 +25,13 @@ form{
     top: 20%;
     left: 60%;
     background:rgb(255, 255, 255);
-    padding: 10%;
+
+ 
     border-style:solid;
-    border-color:#A6D1E6;
-     border-radius: 20%;
-    padding-bottom: 5%;
+    border-color:#1e2f37;
+  
+ 
+   padding: 5%;
     
     
 }
@@ -42,6 +44,7 @@ button{
     
 }
 input{
+    
     background: white;
     padding: 2px;
     border-radius: 10%;
@@ -67,12 +70,36 @@ button[p]{
     background:green;
 }
 @media (max-width: 768px) {
-    div, form {
+    *{
+        
+        align-items: center;
+        font-size: smaller;
+        text-align: center;
+    }
+    div{
+        margin-top: 10%;
         position: static;
         top: auto;
         left: auto;
+    
+    }
+    form{
+        margin-top: 10%;
+        position:static ;
+        left: 50%;
+        margin-left: 17%;
+        
+    
+        padding: 5%;
+        width: 50%
+        
     }
     
-    img {
+    img,span {
         margin: 0;
+        size: 20px x 20px;
     }
+
+   
+    
+}
