@@ -66,3 +66,13 @@ p{
 button[p]{
     background:green;
 }
+@media (max-width: 768px) {
+    div, form {
+        position: static;
+        top: auto;
+        left: auto;
+    }
+    
+    img {
+        margin: 0;
+    }
